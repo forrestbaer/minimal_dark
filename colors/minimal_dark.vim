@@ -19,14 +19,15 @@ hi Statement    ctermfg=243 ctermbg=NONE cterm=NONE
 hi Boolean      ctermfg=243 ctermbg=NONE cterm=NONE
 hi PreProc      ctermfg=254 ctermbg=NONE
 hi Type         ctermfg=249 ctermbg=NONE
-hi Function     ctermfg=240 ctermbg=NONE cterm=italic
+hi Function     ctermfg=137 ctermbg=NONE
 hi Repeat       ctermfg=244 ctermbg=NONE
 hi Operator     ctermfg=249 ctermbg=NONE
-hi Error        ctermfg=124   ctermbg=NONE
-hi TODO         ctermfg=202 ctermbg=NONE cterm=italic
+hi Error        ctermfg=124 ctermbg=NONE
+hi TODO         ctermfg=202 ctermbg=NONE
 hi linenr       ctermfg=236 ctermbg=232
 hi CursorLineNR ctermfg=250 ctermbg=237
-hi Search       ctermfg=0   ctermbg=110
+hi Search       ctermfg=0   ctermbg=228
+hi Title        ctermfg=36  ctermbg=NONE
 
 hi Visual          ctermfg=251 ctermbg=237 cterm=italic
 hi SpecialKey      ctermfg=236 ctermbg=NONE
@@ -40,36 +41,29 @@ hi ColorColumn ctermbg=240
 
 match ExtraWhitespace /\s\+$/
 
-hi link character	      constant
-hi link number	        constant
-hi link boolean	        constant
-hi link Float		        Number
-hi link Conditional	    Repeat
-hi link Label		        Statement
-hi link Keyword	        Statement
-hi link Exception	      Statement
-hi link Include	        PreProc
-hi link Define	        PreProc
-hi link Macro		        PreProc
-hi link PreCondit	      PreProc
-hi link StorageClass	  Type
-hi link Structure	      Type
-hi link Typedef	        Type
-hi link htmlTag	        Special
-hi link Tag		          Special
-hi link SpecialChar	    Special
-hi link Delimiter	      Special
-hi link SpecialComment  Special
-hi link Debug		        Special
+hi link characters	constant
+hi link numbers		constant
+hi link booleans	constant
+hi link Floats		Number
+hi link Conditionals	Repeat
+hi link Labels		Statement
+hi link Keywords	Statement
+hi link Exceptions	Statement
+hi link Includes	PreProc
+hi link Defines		PreProc
+hi link Macros		PreProc
+hi link PreCondits	PreProc
+hi link StorageClasss	Type
+hi link Structures	Type
+hi link Typedefs	Type
+hi link htmlTags	Special
+hi link Tags		Special
+hi link SpecialChars	Special
+hi link Delimiters	Special
+hi link SpecialComment	Special
+hi link Debugs		Special
 
 " sytnax specific
-
-" javascript (ala vim-javascript-syntax)
-hi javaScriptFuncArg ctermfg=244 ctermbg=NONE
-hi javaScriptFuncExp ctermfg=244
-hi javaScriptBraces                           cterm=NONE
-
-hi link javaScriptDocTags Comment
 
 " NerdTree
 hi link NERDTreeDir Special
