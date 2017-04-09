@@ -5,7 +5,7 @@ if exists("syntax on")
   syntax reset
 endif
 
-let g:colors_name = "genericdc"
+let g:colors_name = "minimal_dark"
 
 hi Normal       ctermfg=253 ctermbg=232
 hi Special      ctermfg=255 ctermbg=NONE
