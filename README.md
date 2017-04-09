@@ -1,4 +1,4 @@
-#minimal_dark
+# minimal_dark
 
     A pretty lightweight and minimal dark theme for vim & airline.
     
