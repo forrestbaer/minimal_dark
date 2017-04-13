@@ -30,10 +30,10 @@ let g:airline#themes#minimal_dark#palette.insert_paste = {
 
 
 let g:airline#themes#minimal_dark#palette.replace = copy(g:airline#themes#minimal_dark#palette.insert)
-let g:airline#themes#minimal_dark#palette.replace.airline_a = [ s:I2[0]   , '#920000' , s:I2[2] , 236     , ''     ]
+let g:airline#themes#minimal_dark#palette.replace.airline_a = [ s:I2[0]   , '#ffffff' , s:I2[2] , 236     , ''     ]
 let g:airline#themes#minimal_dark#palette.replace_modified = g:airline#themes#minimal_dark#palette.insert_modified
 
-let s:V1 = [ '#ffff9a' , '#ff8036' , 231 , 4 ]
+let s:V1 = [ '#ffffff' , '#000000' , 231 , 4 ]
 let s:V2 = [ '#ffffff' , '#0087ff' , 231 , 29 ]
 let s:V3 = [ '#ffffff' , '#005f5f' , 231  , 23  ]
 let g:airline#themes#minimal_dark#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
@@ -44,11 +44,11 @@ let g:airline#themes#minimal_dark#palette.visual_modified = {
 let s:IA = [ '#4e4e4e' , '#005f5f' , 59 , 23 , '' ]
 let g:airline#themes#minimal_dark#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
 let g:airline#themes#minimal_dark#palette.inactive_modified = {
-      \ 'airline_c': [ '#e20000' , ''        , 166      , ''      , ''     ] ,
+      \ 'airline_c': [ '#1a1a1a' , ''        , 232      , ''      , ''     ] ,
       \ }
 
 let g:airline#themes#minimal_dark#palette.tabline = {
-      \ 'airline_tab':  ['#2aa198', '#0087ff',  231, 29, ''],
+      \ 'airline_tab':  ['#ffffff', '#00875f',  231, 29, ''],
       \ 'airline_tabsel':  ['#ffffff', '#87ffff',  232, 123, ''],
       \ 'airline_tabtype':  ['#ffffff', '#00af87',  231, 36, ''],
       \ 'airline_tabfill':  ['#ffffff', '#303030',  231, 236, ''],
