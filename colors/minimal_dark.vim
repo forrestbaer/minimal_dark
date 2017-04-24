@@ -7,7 +7,7 @@ endif
 
 let g:colors_name = "minimal_dark"
 
-hi Normal       ctermfg=253 ctermbg=232
+hi Normal       ctermfg=253 ctermbg=232 guifg=#dadada guibg=#080808
 hi Special      ctermfg=255 ctermbg=NONE
 hi Comment      ctermfg=240 ctermbg=234 cterm=NONE
 hi Constant     ctermfg=249 ctermbg=NONE
