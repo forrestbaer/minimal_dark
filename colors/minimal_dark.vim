@@ -24,7 +24,7 @@ hi Function     ctermfg=137 ctermbg=NONE
 hi Repeat       ctermfg=244 ctermbg=NONE
 hi Operator     ctermfg=249 ctermbg=NONE
 hi Error        ctermfg=124 ctermbg=NONE
-hi TODO         ctermfg=202 ctermbg=NONE
+hi TODO         ctermfg=110 ctermbg=NONE
 hi linenr       ctermfg=236 ctermbg=232
 hi CursorLineNR ctermfg=250 ctermbg=237
 hi Search       ctermfg=0   ctermbg=228
