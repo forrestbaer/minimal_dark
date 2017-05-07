@@ -23,7 +23,7 @@ hi Function     ctermfg=137 ctermbg=NONE guifg=#af875f
 hi Repeat       ctermfg=244 ctermbg=NONE guifg=#808080
 hi Operator     ctermfg=249 ctermbg=NONE guifg=#b2b2b2
 hi Error        ctermfg=124 ctermbg=NONE guifg=#af0000
-hi TODO         ctermfg=110 ctermbg=NONE guifg=#ffffff
+hi TODO         ctermfg=137 ctermbg=NONE guifg=#ffffff
 hi linenr       ctermfg=236 ctermbg=232  guifg=#303030 guibg=#080808
 hi CursorLineNR ctermfg=250 ctermbg=237 guifg=#bcbcbc guibg=#3a3a3a
 hi Search       ctermfg=0   ctermbg=228 guifg=#000000 guibg=#ffff87
