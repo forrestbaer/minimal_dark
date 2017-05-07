@@ -8,28 +8,6 @@ endif
 let g:colors_name = "minimal_dark"
 
 hi Normal       ctermfg=253 ctermbg=232 guifg=#dadada guibg=#080808
-<<<<<<< HEAD
-hi Special      ctermfg=255 ctermbg=NONE
-hi Comment      ctermfg=240 ctermbg=234 cterm=NONE
-hi Constant     ctermfg=249 ctermbg=NONE
-hi String       ctermfg=110 ctermbg=NONE
-hi Number       ctermfg=137 ctermbg=NONE
-hi htmlTagName  ctermfg=249 ctermbg=NONE
-hi Identifier   ctermfg=243 ctermbg=NONE
-hi Statement    ctermfg=243 ctermbg=NONE cterm=NONE
-hi Boolean      ctermfg=243 ctermbg=NONE cterm=NONE
-hi PreProc      ctermfg=254 ctermbg=NONE
-hi Type         ctermfg=249 ctermbg=NONE
-hi Function     ctermfg=137 ctermbg=NONE
-hi Repeat       ctermfg=244 ctermbg=NONE
-hi Operator     ctermfg=249 ctermbg=NONE
-hi Error        ctermfg=124 ctermbg=NONE
-hi TODO         ctermfg=110 ctermbg=NONE
-hi linenr       ctermfg=236 ctermbg=232
-hi CursorLineNR ctermfg=250 ctermbg=237
-hi Search       ctermfg=0   ctermbg=228
-hi Title        ctermfg=36  ctermbg=NONE
-=======
 hi Special      ctermfg=255 ctermbg=NONE guifg=#eeeeee
 hi Comment      ctermfg=240 ctermbg=234 cterm=NONE guifg=#585858 guibg=#1c1c1c
 hi Constant     ctermfg=249 ctermbg=NONE guifg=#b2b2b2
@@ -45,12 +23,11 @@ hi Function     ctermfg=137 ctermbg=NONE guifg=#af875f
 hi Repeat       ctermfg=244 ctermbg=NONE guifg=#808080
 hi Operator     ctermfg=249 ctermbg=NONE guifg=#b2b2b2
 hi Error        ctermfg=124 ctermbg=NONE guifg=#af0000
-hi TODO         ctermfg=202 ctermbg=NONE guifg=#ffffff
+hi TODO         ctermfg=110 ctermbg=NONE guifg=#ffffff
 hi linenr       ctermfg=236 ctermbg=232  guifg=#303030 guibg=#080808
 hi CursorLineNR ctermfg=250 ctermbg=237 guifg=#bcbcbc guibg=#3a3a3a
 hi Search       ctermfg=0   ctermbg=228 guifg=#000000 guibg=#ffff87
 hi Title        ctermfg=36  ctermbg=NONE guifg=#00af87
->>>>>>> b87c060c92842018bbfb80c742d045cf05c674ea
 
 hi Visual          ctermfg=251 ctermbg=237 cterm=italic guifg=#c6c6c6 guibg=#3a3a3a
 hi SpecialKey      ctermfg=236 ctermbg=NONE guifg=#303030
