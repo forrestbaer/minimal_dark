@@ -7,6 +7,7 @@ endif
 
 let g:colors_name = "minimal_dark"
 
+hi StatusLine   ctermfg=0 ctermbg=37
 hi Normal       ctermfg=253 ctermbg=232 guifg=#dadada guibg=#080808
 hi Special      ctermfg=255 ctermbg=NONE guifg=#eeeeee
 hi Comment      ctermfg=240 ctermbg=234 cterm=NONE guifg=#585858 guibg=#1c1c1c
