@@ -49,7 +49,7 @@ let g:airline#themes#minimal_dark#palette.inactive_modified = {
 
 let g:airline#themes#minimal_dark#palette.tabline = {
       \ 'airline_tab':  ['#ffffff', '#00875f',  231, 29, ''],
-      \ 'airline_tabsel':  ['#ffffff', '#87ffff',  232, 123, ''],
+      \ 'airline_tabsel':  ['#000000', '#87ffff',  232, 123, ''],
       \ 'airline_tabtype':  ['#ffffff', '#00af87',  231, 36, ''],
       \ 'airline_tabfill':  ['#ffffff', '#303030',  231, 236, ''],
       \ 'airline_tabmod':  ['#ffffff', '#000000',  231, 0, ''],
