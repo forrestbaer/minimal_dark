@@ -8,37 +8,41 @@ endif
 let g:colors_name = "minimal_dark"
 
 hi StatusLine   ctermfg=0 ctermbg=37
-hi Normal       ctermfg=253 ctermbg=232 guifg=#dadada guibg=#080808
-hi Special      ctermfg=255 ctermbg=NONE guifg=#eeeeee
-hi Comment      ctermfg=240 ctermbg=234 cterm=NONE guifg=#585858 guibg=#1c1c1c
-hi Constant     ctermfg=249 ctermbg=NONE guifg=#b2b2b2
-hi String       ctermfg=110 ctermbg=NONE guifg=#87afd7
-hi Number       ctermfg=137 ctermbg=NONE guifg=#af875f
-hi htmlTagName  ctermfg=249 ctermbg=NONE guifg=#b2b2b2
-hi Identifier   ctermfg=243 ctermbg=NONE guifg=#767676
-hi Statement    ctermfg=243 ctermbg=NONE cterm=NONE guifg=#767676
-hi Boolean      ctermfg=243 ctermbg=NONE cterm=NONE guifg=#767676
-hi PreProc      ctermfg=254 ctermbg=NONE guifg=#e4e4e4
-hi Type         ctermfg=249 ctermbg=NONE guifg=#b2b2b2
-hi Function     ctermfg=137 ctermbg=NONE guifg=#af875f
-hi Repeat       ctermfg=244 ctermbg=NONE guifg=#808080
-hi Operator     ctermfg=249 ctermbg=NONE guifg=#b2b2b2
-hi Error        ctermfg=124 ctermbg=NONE guifg=#af0000
-hi TODO         ctermfg=137 ctermbg=NONE guifg=#ffffff
-hi linenr       ctermfg=236 ctermbg=232  guifg=#303030 guibg=#080808
-hi CursorLineNR ctermfg=250 ctermbg=237 guifg=#bcbcbc guibg=#3a3a3a
-hi Search       ctermfg=0   ctermbg=228 guifg=#000000 guibg=#ffff87
-hi Title        ctermfg=36  ctermbg=NONE guifg=#00af87
+hi Normal       ctermfg=7   ctermbg=0
+hi Special      ctermfg=255 ctermbg=NONE
+hi Comment      ctermfg=242 ctermbg=234
+hi Constant     ctermfg=249 ctermbg=NONE
+hi String       ctermfg=110 ctermbg=NONE
+hi Number       ctermfg=137 ctermbg=NONE
+hi htmlTagName  ctermfg=249 ctermbg=NONE
+hi Identifier   ctermfg=243 ctermbg=NONE
+hi Statement    ctermfg=243 ctermbg=NONE cterm=NONE
+hi Boolean      ctermfg=243 ctermbg=NONE cterm=NONE
+hi PreProc      ctermfg=254 ctermbg=NONE
+hi Type         ctermfg=249 ctermbg=NONE
+hi Function     ctermfg=137 ctermbg=NONE
+hi Repeat       ctermfg=244 ctermbg=NONE
+hi Operator     ctermfg=43  ctermbg=NONE
+hi SignColumn   ctermfg=White ctermbg=Black
+hi Error        ctermfg=124 ctermbg=NONE
+hi TODO         ctermfg=137 ctermbg=NONE
+hi linenr       ctermfg=236 ctermbg=232
+hi CursorLineNR ctermfg=250 ctermbg=237
+hi Search       ctermfg=0   ctermbg=228
+hi FloatBorder  ctermfg=7 ctermbg=Black
+hi Title        ctermfg=36  ctermbg=NONE
+hi MarkSignNumHL ctermfg=116
+hi MarkSignHL   ctermfg=73
 
-hi Visual          ctermfg=251 ctermbg=237 cterm=italic guifg=#c6c6c6 guibg=#3a3a3a
-hi SpecialKey      ctermfg=236 ctermbg=NONE guifg=#303030
-hi NonText         ctermfg=236 ctermbg=NONE guifg=#303030
-hi ExtraWhitespace             ctermbg=233 guibg=#121212
-hi MatchParen      ctermfg=255 ctermbg=242 guifg=#eeeeee guibg=#666666
-hi Pmenu           ctermfg=251 ctermbg=237 guifg=#c6c6c6 guibg=#3a3a3a
-hi PmenuSel        ctermfg=235 ctermbg=111 guifg=#262626 guibg=#87afff
+hi Visual          ctermfg=251 ctermbg=237 cterm=italic
+hi SpecialKey      ctermfg=236 ctermbg=NONE
+hi NonText         ctermfg=236 ctermbg=NONE
+hi ExtraWhitespace             ctermbg=233
+hi MatchParen      ctermfg=255 ctermbg=242
+hi Pmenu           ctermfg=249 ctermbg=233
+hi PmenuSel        ctermfg=235 ctermbg=111
 
-hi ColorColumn ctermbg=240 guibg=#585858
+hi ColorColumn ctermbg=240
 
 match ExtraWhitespace /\s\+$/
 
@@ -69,3 +73,25 @@ hi link Debugs		Special
 " NerdTree
 hi link NERDTreeDir Special
 hi NERDTreeFile     ctermfg=246 guifg=#949494
+
+" Easymotion
+hi link EasyMotionTarget Number
+hi link EasyMotionShade  Comment
+hi link EasyMotionTarget2First IncSearch
+hi link EasyMotionTarget2Second IncSearch
+hi link EasyMotionMoveHL Search
+hi link EasyMotionIncSearch Search
+
+" gitgutter
+hi GitGutterAdd ctermfg=28 ctermbg=Black
+hi GitGutterChange ctermfg=112 ctermbg=Black
+hi GitGutterDelete ctermfg=8 ctermbg=Black
+
+" lsp diagnostics 
+hi DiagnosticError ctermfg=5 ctermbg=Black
+hi DiagnosticWarn ctermfg=135
+hi DiagnosticInfo ctermfg=24
+hi DiagnosticUnderlineWarn ctermfg=135
+hi DiagnosticHint ctermfg=116
+hi DiagnosticVirtualTextHint ctermfg=238 ctermbg=233
+hi DiagnosticVirtualTextWarn ctermfg=242 ctermbg=233
