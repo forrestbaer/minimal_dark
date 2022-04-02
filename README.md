@@ -1,6 +1,6 @@
-# minimal_dark
+# minimal_dark vim colorscheme
 
-    A pretty lightweight and minimal dark theme for vim & airline.
+    A fairly lightweight and minimal dark theme for vim & airline.
     
     I like it.
 
