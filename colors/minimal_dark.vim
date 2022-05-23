@@ -23,7 +23,7 @@ hi Type guifg=#b2b2b2 ctermfg=249 ctermbg=NONE
 hi Function guifg=#af875f ctermfg=137 ctermbg=NONE
 hi Repeat guifg=#808080 ctermfg=244 ctermbg=NONE
 hi Operator guifg=#00dfaf ctermfg=43 ctermbg=NONE
-hi SignColumn ctermfg=White ctermbg=Black
+hi SignColumn guifg=#FFFFFF guibg=#000000 ctermfg=White ctermbg=Black
 hi Error guifg=#af0000 ctermfg=124 ctermbg=NONE
 hi TODO guifg=#af875f ctermfg=137 ctermbg=NONE
 hi linenr guifg=#303030 ctermfg=236 guibg=#080808 ctermbg=232
