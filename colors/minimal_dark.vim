@@ -24,7 +24,7 @@ hi Function guifg=#af875f ctermfg=137 ctermbg=NONE
 hi Repeat guifg=#808080 ctermfg=244 ctermbg=NONE
 hi Operator guifg=#00dfaf ctermfg=43 ctermbg=NONE
 hi SignColumn guifg=#FFFFFF guibg=#000000 ctermfg=White ctermbg=Black
-hi Error guifg=#af0000 ctermfg=124 ctermbg=NONE
+hi Error guifg=#af0000 guibg=#000000 ctermfg=124 ctermbg=NONE
 hi TODO guifg=#af875f ctermfg=137 ctermbg=NONE
 hi linenr guifg=#303030 ctermfg=236 guibg=#080808 ctermbg=232
 hi CursorLineNR guifg=#bcbcbc ctermfg=250 guibg=#3a3a3a ctermbg=237
