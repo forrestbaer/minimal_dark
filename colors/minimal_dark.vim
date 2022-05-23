@@ -84,8 +84,11 @@ hi link EasyMotionIncSearch Search
 
 " gitgutter
 hi GitGutterAdd guifg=#008700 ctermfg=28 ctermbg=Black
-hi GitGutterChange guifg=#87df00 ctermfg=112 ctermbg=Black
-hi GitGutterDelete guifg=#808080 ctermfg=8 ctermbg=Black
+hi GitGutterChange guifg=#005600 ctermfg=112 ctermbg=Black
+hi GitGutterDelete guifg=#aa3020 ctermfg=8 ctermbg=Black
+hi GitGutterAddLineNr guifg=#008700 ctermfg=28 ctermbg=Black
+hi GitGutterChangeLineNr guifg=#005600 ctermfg=112 ctermbg=Black
+hi GitGutterDeleteLineNr guifg=#aa3020 ctermfg=8 ctermbg=Black
 
 " lsp diagnostics
 hi DiagnosticError guifg=#800080 ctermfg=5 ctermbg=Black
