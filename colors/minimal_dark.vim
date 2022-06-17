@@ -33,6 +33,8 @@ hi FloatBorder guifg=#c0c0c0 ctermfg=7 ctermbg=Black
 hi Title guifg=#00af87 ctermfg=36 ctermbg=NONE
 hi MarkSignNumHL guifg=#87dfdf ctermfg=116
 hi MarkSignHL guifg=#5fafaf ctermfg=73
+hi VertSplit gui=NONE guifg=#666666 guibg=#000000 ctermfg=243 ctermbg=Black
+hi ColorColumn gui=NONE guifg=#666666 guibg=#000000 ctermfg=243 ctermbg=Black
 
 hi Visual guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=italic cterm=italic
 hi SpecialKey guifg=#303030 ctermfg=236 ctermbg=NONE
