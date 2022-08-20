@@ -29,8 +29,8 @@ hi TODO guifg=#af875f ctermfg=137 ctermbg=NONE
 hi linenr guifg=#303030 ctermfg=236 guibg=#080808 ctermbg=232
 hi CursorLineNR guifg=#bcbcbc ctermfg=250 guibg=#3a3a3a ctermbg=237
 hi Search guifg=#000000 ctermfg=0 guibg=#bb33aa guifg=#FFFFFF ctermbg=238
-hi FoldColumn guifg=#87dfdf guibg=#000000
-hi Folded guifg=#5fafaf guibg=#000000
+hi FoldColumn guifg=#183273 guibg=#000000
+hi Folded guifg=#FFFFFF guibg=NONE
 hi FloatBorder guifg=#c0c0c0 ctermfg=7 ctermbg=Black
 hi Title guifg=#00af87 ctermfg=36 ctermbg=NONE
 hi MarkSignNumHL guifg=#87dfdf ctermfg=116
