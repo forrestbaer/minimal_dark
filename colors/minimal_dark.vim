@@ -7,16 +7,17 @@ endif
 
 let g:colors_name = "minimal_dark"
 
+hi Keyword gui=bold
 hi StatusLine guifg=#000000 ctermfg=0 guibg=#00afaf ctermbg=37
 hi Normal guifg=#c0c0c0 ctermfg=7 guibg=#000000 ctermbg=0
 hi Special guifg=#eeeeee ctermfg=255 ctermbg=NONE
 hi Comment guifg=#666666 ctermfg=242 guibg=#1c1c1c ctermbg=234
 hi Constant guifg=#b2b2b2 ctermfg=249 ctermbg=NONE
-hi String guifg=#87afdf ctermfg=110 ctermbg=NONE
+hi String guifg=#5fafaf ctermfg=110 ctermbg=NONE
 hi Number guifg=#af875f ctermfg=137 ctermbg=NONE
 hi htmlTagName guifg=#b2b2b2 ctermfg=249 ctermbg=NONE
 hi Identifier guifg=#767676 ctermfg=243 ctermbg=NONE
-hi Statement guifg=#767676 ctermfg=243 ctermbg=NONE gui=NONE cterm=NONE
+hi Statement guifg=#767676 ctermfg=243 ctermbg=NONE gui=bold cterm=NONE
 hi Boolean guifg=#767676 ctermfg=243 ctermbg=NONE gui=NONE cterm=NONE
 hi PreProc guifg=#e4e4e4 ctermfg=254 ctermbg=NONE
 hi Type guifg=#b2b2b2 ctermfg=249 ctermbg=NONE
@@ -28,7 +29,7 @@ hi Error guifg=#af0000 guibg=#000000 ctermfg=124 ctermbg=NONE
 hi TODO guifg=#af875f ctermfg=137 ctermbg=NONE
 hi linenr guifg=#303030 ctermfg=236 guibg=#080808 ctermbg=232
 hi CursorLineNR guifg=#bcbcbc ctermfg=250 guibg=#3a3a3a ctermbg=237
-hi Search guifg=#000000 ctermfg=0 guibg=#bb33aa guifg=#FFFFFF ctermbg=238
+hi Search guifg=#000000 ctermfg=0 guibg=#bb33aa guifg=#000000 ctermbg=238
 hi FoldColumn guifg=#183273 guibg=#000000
 hi Folded guifg=#FFFFFF guibg=NONE
 hi FloatBorder guifg=#c0c0c0 ctermfg=7 ctermbg=Black
@@ -97,7 +98,7 @@ hi GitGutterDeleteLineNr guifg=#aa3020 ctermfg=8 ctermbg=Black
 " lsp diagnostics
 hi DiagnosticError guifg=#800080 ctermfg=5 ctermbg=Black
 hi DiagnosticWarn guifg=#af5fff ctermfg=135
-hi DiagnosticInfo guifg=#005f87 ctermfg=24
+hi DiagnosticInfo guifg=#183273 ctermfg=24
 hi DiagnosticUnderlineWarn guifg=#af5fff ctermfg=135
 hi DiagnosticHint guifg=#87dfdf ctermfg=116
 hi DiagnosticVirtualTextHint guifg=#444444 ctermfg=238 guibg=#121212 ctermbg=233
