@@ -47,6 +47,11 @@ hi MatchParen guifg=#eeeeee ctermfg=255 guibg=#666666 ctermbg=242
 hi Pmenu guifg=#b2b2b2 ctermfg=249 guibg=#121212 ctermbg=233
 hi PmenuSel guifg=#262626 ctermfg=235 guibg=#87afff ctermbg=111
 
+hi DiffAdd guifg=#00a13f guibg=NONE
+hi DiffChange guifg=#992299 guibg=NONE
+hi DiffDelete guifg=#af0000 guibg=NONE
+hi DiffText guifg=#770000 guibg=NONE
+
 hi ColorColumn guibg=#585858 ctermbg=240
 
 match ExtraWhitespace /\s\+$/
