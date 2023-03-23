@@ -12,7 +12,6 @@ hi Normal guifg=#c0c0c0
 hi Special guifg=#eeeeee
 hi Comment guifg=#eeeeee guibg=#444444
 hi Constant guifg=#b2b2b2
-" hi String guifg=#5fafaf
 hi String guifg=#b2b2b2
 hi Number guifg=#af875f
 hi htmlTagName guifg=#b2b2b2
@@ -42,8 +41,8 @@ hi SpecialKey guifg=#303030
 hi NonText guifg=#303030
 hi ExtraWhitespace guibg=#333333
 hi MatchParen guifg=#eeeeee
-hi Pmenu guifg=#b2b2b2
-hi PmenuSel guifg=#262626
+hi Pmenu guifg=#b2b2b2 guibg=#222222
+hi PmenuSel guifg=#b2b2b2 guibg=#660066
 
 hi DiffAdd guifg=#00a13f guibg=NONE
 hi DiffChange guifg=#992299 guibg=NONE
