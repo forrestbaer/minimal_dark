@@ -7,52 +7,50 @@ endif
 
 let g:colors_name = "minimal_dark"
 
-hi Keyword gui=bold
-hi StatusLine guifg=#000000 ctermfg=0 guibg=#00afaf ctermbg=37
-hi Normal guifg=#c0c0c0 ctermfg=7 guibg=#000000 ctermbg=0
-hi Special guifg=#eeeeee ctermfg=255 ctermbg=NONE
-hi Comment guifg=#666666 ctermfg=242 guibg=#1c1c1c ctermbg=234
-hi Constant guifg=#b2b2b2 ctermfg=249 ctermbg=NONE
-hi String guifg=#5fafaf ctermfg=110 ctermbg=NONE
-hi Number guifg=#af875f ctermfg=137 ctermbg=NONE
-hi htmlTagName guifg=#b2b2b2 ctermfg=249 ctermbg=NONE
-hi Identifier guifg=#767676 ctermfg=243 ctermbg=NONE
-hi Statement guifg=#767676 ctermfg=243 ctermbg=NONE gui=bold cterm=NONE
-hi Boolean guifg=#767676 ctermfg=243 ctermbg=NONE gui=NONE cterm=NONE
-hi PreProc guifg=#e4e4e4 ctermfg=254 ctermbg=NONE
-hi Type guifg=#b2b2b2 ctermfg=249 ctermbg=NONE
-hi Function guifg=#af875f ctermfg=137 ctermbg=NONE
-hi Repeat guifg=#808080 ctermfg=244 ctermbg=NONE
-hi Operator guifg=#00dfaf ctermfg=43 ctermbg=NONE
-hi SignColumn guifg=#FFFFFF guibg=#000000 ctermfg=White ctermbg=Black
-hi Error guifg=#af0000 guibg=#000000 ctermfg=124 ctermbg=NONE
-hi TODO guifg=#af875f ctermfg=137 ctermbg=NONE
-hi linenr guifg=#303030 ctermfg=236 guibg=#080808 ctermbg=232
-hi CursorLineNR guifg=#bcbcbc ctermfg=250 guibg=#3a3a3a ctermbg=237
-hi Search guifg=#000000 ctermfg=0 guibg=#bb33aa guifg=#000000 ctermbg=238
-hi FoldColumn guifg=#183273 guibg=#000000
-hi Folded guifg=#FFFFFF guibg=NONE
-hi FloatBorder guifg=#c0c0c0 ctermfg=7 ctermbg=Black
-hi Title guifg=#00af87 ctermfg=36 ctermbg=NONE
-hi MarkSignNumHL guifg=#87dfdf ctermfg=116
-hi MarkSignHL guifg=#5fafaf ctermfg=73
-hi VertSplit gui=NONE guifg=#666666 guibg=#000000 ctermfg=243 ctermbg=Black
-hi ColorColumn gui=NONE guifg=#666666 guibg=#000000 ctermfg=243 ctermbg=Black
+hi StatusLine guifg=#000000
+hi Normal guifg=#c0c0c0
+hi Special guifg=#eeeeee
+hi Comment guifg=#eeeeee guibg=#444444
+hi Constant guifg=#b2b2b2
+" hi String guifg=#5fafaf
+hi String guifg=#b2b2b2
+hi Number guifg=#af875f
+hi htmlTagName guifg=#b2b2b2
+hi Identifier guifg=#b2b2b2
+hi Statement guifg=#5fafaf
+hi Boolean guifg=#767676
+hi PreProc guifg=#e4e4e4
+hi Type guifg=#b2b2b2
+hi Function guifg=#af875f
+hi Repeat guifg=#808080
+hi Operator guifg=#00dfaf
+hi SignColumn guifg=#FFFFFF guibg=#000000
+hi Error guifg=#af0000 guibg=#000000
+hi TODO guifg=#af875f
+hi linenr guifg=#555555
+hi CursorLineNR guifg=#bcbcbc
+hi Search guifg=#000000 guibg=#87dfdf
+hi FloatBorder guifg=#c0c0c0
+hi Title guifg=#00af87
+hi MarkSignNumHL guifg=#87dfdf
+hi MarkSignHL guifg=#5fafaf
+hi VertSplit gui=NONE guifg=#666666 guibg=#000000
+hi ColorColumn gui=NONE guifg=#666666 guibg=#000000
 
-hi Visual guifg=#c6c6c6 ctermfg=251 guibg=#3a3a3a ctermbg=237 gui=italic cterm=italic
-hi SpecialKey guifg=#303030 ctermfg=236 ctermbg=NONE
-hi NonText guifg=#303030 ctermfg=236 ctermbg=NONE
-hi ExtraWhitespace guibg=#121212 ctermbg=233
-hi MatchParen guifg=#eeeeee ctermfg=255 guibg=#666666 ctermbg=242
-hi Pmenu guifg=#b2b2b2 ctermfg=249 guibg=#121212 ctermbg=233
-hi PmenuSel guifg=#262626 ctermfg=235 guibg=#87afff ctermbg=111
+hi Visual guibg=#660066 guifg=#eeeeee
+hi SpecialKey guifg=#303030
+hi NonText guifg=#303030
+hi ExtraWhitespace guibg=#333333
+hi MatchParen guifg=#eeeeee
+hi Pmenu guifg=#b2b2b2
+hi PmenuSel guifg=#262626
 
 hi DiffAdd guifg=#00a13f guibg=NONE
 hi DiffChange guifg=#992299 guibg=NONE
 hi DiffDelete guifg=#af0000 guibg=NONE
 hi DiffText guifg=#770000 guibg=NONE
 
-hi ColorColumn guibg=#585858 ctermbg=240
+hi ColorColumn guibg=#585858
 
 match ExtraWhitespace /\s\+$/
 
@@ -78,33 +76,19 @@ hi link Delimiters Special
 hi link SpecialComment Special
 hi link Debugs Special
 
-" sytnax specific
-
-" NerdTree
-hi link NERDTreeDir Special
-hi NERDTreeFile guifg=#949494 ctermfg=246 guifg=#949494
-
-" Easymotion
-hi link EasyMotionTarget Number
-hi link EasyMotionShade Comment
-hi link EasyMotionTarget2First IncSearch
-hi link EasyMotionTarget2Second IncSearch
-hi link EasyMotionMoveHL Search
-hi link EasyMotionIncSearch Search
-
 " gitgutter
-hi GitGutterAdd guifg=#008700 ctermfg=28 ctermbg=Black
-hi GitGutterChange guifg=#005600 ctermfg=112 ctermbg=Black
-hi GitGutterDelete guifg=#aa3020 ctermfg=8 ctermbg=Black
-hi GitGutterAddLineNr guifg=#008700 ctermfg=28 ctermbg=Black
-hi GitGutterChangeLineNr guifg=#005600 ctermfg=112 ctermbg=Black
-hi GitGutterDeleteLineNr guifg=#aa3020 ctermfg=8 ctermbg=Black
+hi GitGutterAdd guifg=#008700
+hi GitGutterChange guifg=#af5fff
+hi GitGutterDelete guifg=#af0000
+hi GitGutterAddLineNr guifg=#008700
+hi GitGutterChangeLineNr guifg=#af5fff
+hi GitGutterDeleteLineNr guifg=#af0000
 
 " lsp diagnostics
-hi DiagnosticError guifg=#800080 ctermfg=5 ctermbg=Black
-hi DiagnosticWarn guifg=#af5fff ctermfg=135
-hi DiagnosticInfo guifg=#183273 ctermfg=24
-hi DiagnosticUnderlineWarn guifg=#af5fff ctermfg=135
-hi DiagnosticHint guifg=#87dfdf ctermfg=116
-hi DiagnosticVirtualTextHint guifg=#444444 ctermfg=238 guibg=#121212 ctermbg=233
-hi DiagnosticVirtualTextWarn guifg=#666666 ctermfg=242 guibg=#121212 ctermbg=233
+hi DiagnosticError guifg=#af0000
+hi DiagnosticWarn guifg=#FFFFFF
+hi DiagnosticInfo guifg=#183273
+hi DiagnosticUnderlineWarn guifg=#af5fff
+hi DiagnosticHint guifg=#87dfdf
+hi DiagnosticVirtualTextHint guifg=#444444
+hi DiagnosticVirtualTextWarn guifg=#666666
