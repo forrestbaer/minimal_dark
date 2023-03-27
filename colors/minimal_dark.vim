@@ -45,7 +45,7 @@ hi Pmenu guifg=#b2b2b2 guibg=#222222
 hi PmenuSel guifg=#b2b2b2 guibg=#660066
 
 hi DiffAdd guifg=#00a13f guibg=NONE
-hi DiffChange guifg=#992299 guibg=NONE
+hi DiffChange guifg=#007028 guibg=NONE
 hi DiffDelete guifg=#af0000 guibg=NONE
 hi DiffText guifg=#770000 guibg=NONE
 
@@ -77,10 +77,10 @@ hi link Debugs Special
 
 " gitgutter
 hi GitGutterAdd guifg=#008700
-hi GitGutterChange guifg=#af5fff
+hi GitGutterChange guifg=#007028
 hi GitGutterDelete guifg=#af0000
 hi GitGutterAddLineNr guifg=#008700
-hi GitGutterChangeLineNr guifg=#af5fff
+hi GitGutterChangeLineNr guifg=#007028
 hi GitGutterDeleteLineNr guifg=#af0000
 
 " lsp diagnostics
