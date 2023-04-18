@@ -43,6 +43,7 @@ hi ExtraWhitespace guibg=#333333
 hi MatchParen guifg=#eeeeee
 hi Pmenu guifg=#b2b2b2 guibg=#222222
 hi PmenuSel guifg=#b2b2b2 guibg=#660066
+hi Todo guifg=#AC66AC guibg=NONE
 
 hi DiffAdd guifg=#00a13f guibg=NONE
 hi DiffChange guifg=#007028 guibg=NONE
