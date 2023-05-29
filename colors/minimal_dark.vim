@@ -92,3 +92,9 @@ hi DiagnosticUnderlineWarn guifg=#af5fff
 hi DiagnosticHint guifg=#87dfdf
 hi DiagnosticVirtualTextHint guifg=#444444
 hi DiagnosticVirtualTextWarn guifg=#666666
+
+" VimWiki
+hi VimwikiBold guifg=#FFFFFF gui=bold
+hi VimwikiItalic guifg=#DDDDDD gui=undercurl
+hi VimwikiWeblink1 guifg=#af875f gui=underline
+hi VimwikiListTodo guifg=#5f8f8f
