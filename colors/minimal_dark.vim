@@ -10,7 +10,7 @@ let g:colors_name = "minimal_dark"
 hi StatusLine guifg=#000000
 hi Normal guifg=#c0c0c0
 hi Special guifg=#eeeeee
-hi Comment guifg=#eeeeee guibg=#444444
+hi Comment guifg=#888888 guibg=#111111
 hi Constant guifg=#b2b2b2
 hi String guifg=#b2b2b2
 hi Number guifg=#af875f
@@ -36,13 +36,13 @@ hi MarkSignHL guifg=#5fafaf
 hi VertSplit gui=NONE guifg=#666666 guibg=#000000
 hi ColorColumn gui=NONE guifg=#666666 guibg=#000000
 
-hi Visual guibg=#660066 guifg=#eeeeee
+hi Visual guifg=#222222 guibg=#a18f5f
 hi SpecialKey guifg=#303030
 hi NonText guifg=#303030
 hi ExtraWhitespace guibg=#333333
 hi MatchParen guifg=#eeeeee
-hi Pmenu guifg=#b2b2b2 guibg=#222222
-hi PmenuSel guifg=#b2b2b2 guibg=#660066
+hi Pmenu guifg=#222222 guibg=#a18f5f
+hi PmenuSel guifg=#000000 guibg=#63542a
 hi Todo guifg=#AC66AC guibg=NONE
 
 hi DiffAdd guifg=#00a13f guibg=NONE
