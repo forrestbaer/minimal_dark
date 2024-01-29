@@ -7,10 +7,10 @@ endif
 
 let g:colors_name = "minimal_dark"
 
-hi StatusLine guifg=#000000
+hi StatusLine guifg=none
 hi Normal guifg=#c0c0c0
 hi Special guifg=#eeeeee
-hi Comment guifg=#888888 guibg=#111111
+hi Comment guifg=#666666 guibg=none
 hi Constant guifg=#b2b2b2
 hi String guifg=#b2b2b2
 hi Number guifg=#af875f
@@ -23,8 +23,8 @@ hi Type guifg=#b2b2b2
 hi Function guifg=#af875f
 hi Repeat guifg=#808080
 hi Operator guifg=#00dfaf
-hi SignColumn guifg=#FFFFFF guibg=#000000
-hi Error guifg=#af0000 guibg=#000000
+hi SignColumn guifg=#FFFFFF guibg=none
+hi Error guifg=#af0000 guibg=none
 hi TODO guifg=#af875f
 hi linenr guifg=#555555
 hi CursorLineNR guifg=#bcbcbc
@@ -33,17 +33,16 @@ hi FloatBorder guifg=#c0c0c0
 hi Title guifg=#00af87
 hi MarkSignNumHL guifg=#87dfdf
 hi MarkSignHL guifg=#5fafaf
-hi VertSplit gui=NONE guifg=#666666 guibg=#000000
-hi ColorColumn gui=NONE guifg=#666666 guibg=#000000
+hi VertSplit gui=NONE guifg=#666666 guibg=none
+hi ColorColumn gui=NONE guifg=#666666 guibg=none
 
 hi Visual guifg=#222222 guibg=#a18f5f
 hi SpecialKey guifg=#303030
 hi NonText guifg=#303030
 hi ExtraWhitespace guibg=#333333
 hi MatchParen guifg=#eeeeee
-hi Pmenu guifg=#222222 guibg=#a18f5f
-hi PmenuSel guifg=#000000 guibg=#63542a
-hi Todo guifg=#AC66AC guibg=NONE
+hi Pmenu guifg=#aaaaaa guibg=#222222
+hi PmenuSel guifg=#FFFFFF guibg=#444444
 
 hi DiffAdd guifg=#00a13f guibg=NONE
 hi DiffChange guifg=#007028 guibg=NONE
