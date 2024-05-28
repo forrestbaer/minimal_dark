@@ -7,8 +7,8 @@ endif
 
 let g:colors_name = "minimal_dark"
 
-hi StatusLine guifg=none
-hi Normal guifg=#c0c0c0
+hi StatusLine guifg=none guibg=none
+hi Normal guifg=#c0c0c0 guibg=none
 hi Special guifg=#eeeeee
 hi Comment guifg=#666666 guibg=none
 hi Constant guifg=#b2b2b2
@@ -36,7 +36,7 @@ hi MarkSignHL guifg=#5fafaf
 hi VertSplit gui=NONE guifg=#666666 guibg=none
 hi ColorColumn gui=NONE guifg=#666666 guibg=none
 
-hi Visual guifg=#222222 guibg=#a18f5f
+hi Visual guifg=#EEEEEE guibg=#af875f
 hi SpecialKey guifg=#303030
 hi NonText guifg=#303030
 hi ExtraWhitespace guibg=#333333
