@@ -10,19 +10,19 @@ let g:colors_name = "minimal_dark"
 hi StatusLine guifg=none guibg=none
 hi Normal guifg=#c0c0c0 guibg=none
 hi Special guifg=#eeeeee
-hi Comment guifg=#666666 guibg=none
+hi Comment guifg=#444444 guibg=none
 hi Constant guifg=#b2b2b2
-hi String guifg=#b2b2b2
+hi String guifg=#999999
 hi Number guifg=#af875f
 hi htmlTagName guifg=#b2b2b2
-hi Identifier guifg=#b2b2b2
+hi Identifier guifg=#87af5f
 hi Statement guifg=#5fafaf
 hi Boolean guifg=#767676
 hi PreProc guifg=#e4e4e4
-hi Type guifg=#b2b2b2
+hi Type guifg=#af5faf
 hi Function guifg=#af875f
 hi Repeat guifg=#808080
-hi Operator guifg=#00dfaf
+hi Operator guifg=#00af87
 hi SignColumn guifg=#FFFFFF guibg=none
 hi Error guifg=#af0000 guibg=none
 hi TODO guifg=#af875f
