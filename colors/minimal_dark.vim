@@ -1,4 +1,4 @@
-set background = dark
+set background=dark
 highlight clear
 
 if exists("syntax on")
