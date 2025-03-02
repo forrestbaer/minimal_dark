@@ -15,7 +15,8 @@ hi Constant guifg = #b2b2b2
 hi String guifg = #999999
 hi Number guifg = #af875f
 hi htmlTagName guifg = #b2b2b2
-hi Identifier guifg = #af5f5f
+hi Identifier guifg = #6f5faf " #af5f5f
+hi Cursor guifg = #111111 guibg = #CCCCCC
 hi Statement guifg = #5fafaf
 hi Boolean guifg = #767676
 hi PreProc guifg = #e4e4e4
@@ -36,7 +37,7 @@ hi MarkSignHL guifg = #5fafaf
 hi VertSplit gui = NONE guifg = #666666 guibg = none
 hi ColorColumn gui = NONE guifg = #666666 guibg = none
 
-hi Visual guifg = #EEEEEE guibg = #af875f
+hi Visual guifg = #111111 guibg =NvimLightYellow
 hi SpecialKey guifg = #303030
 hi NonText guifg = #303030
 hi ExtraWhitespace guibg = #333333
@@ -97,3 +98,7 @@ hi VimwikiBold guifg = #FFFFFF gui = bold
 hi VimwikiItalic guifg = #DDDDDD gui = undercurl
 hi VimwikiWeblink1 guifg = #af875f gui = underline
 hi VimwikiListTodo guifg = #5f8f8f
+
+hi xxdAddress guifg = #555555 guibg = #222222 gui = italic
+hi xxdAscii guifg = #999999
+hi xxdDot guifg = #333333
