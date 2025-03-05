@@ -20,7 +20,7 @@ hi Cursor guifg = #111111 guibg = #CCCCCC
 hi Statement guifg = #5fafaf
 hi Boolean guifg = #767676
 hi PreProc guifg = #e4e4e4
-hi Type guifg = #af5f5f
+hi Type guifg = #999999
 hi Function guifg = #af875f
 hi Repeat guifg = #808080
 hi Operator guifg = #844848
@@ -29,7 +29,7 @@ hi Error guifg = #ba2a2a guibg = none
 hi TODO guifg = #6f5faf
 hi linenr guifg = #333333
 hi CursorLineNR guifg = #bcbcbc
-hi Search guifg = #000000 guibg = #87dfdf
+hi Search guifg = #000000 guibg = #fff5c1
 hi FloatBorder guifg = #c0c0c0
 hi Title guifg = #6f5faf
 hi MarkSignNumHL guifg = #87dfdf
@@ -37,7 +37,7 @@ hi MarkSignHL guifg = #5fafaf
 hi VertSplit gui = NONE guifg = #666666 guibg = none
 hi ColorColumn gui = NONE guifg = #666666 guibg = none
 
-hi Visual guifg = #111111 guibg =NvimLightYellow
+hi Visual guifg = #111111 guibg = #fff5c1
 hi SpecialKey guifg = #303030
 hi NonText guifg = #303030
 hi ExtraWhitespace guibg = #333333
@@ -66,9 +66,6 @@ hi link Includes PreProc
 hi link Defines PreProc
 hi link Macros PreProc
 hi link PreCondits PreProc
-hi link StorageClasss Type
-hi link Structures Type
-hi link Typedefs Type
 hi link htmlTags Special
 hi link Tags Special
 hi link SpecialChars Special
