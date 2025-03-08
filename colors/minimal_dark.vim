@@ -15,29 +15,30 @@ hi Constant guifg = #b2b2b2
 hi String guifg = #999999
 hi Number guifg = #af875f
 hi htmlTagName guifg = #b2b2b2
-hi Identifier guifg = #6f5faf " #af5f5f
+hi Identifier guifg = #7f52af
 hi Cursor guifg = #111111 guibg = #CCCCCC
 hi Statement guifg = #5fafaf
 hi Boolean guifg = #767676
 hi PreProc guifg = #e4e4e4
 hi Type guifg = #999999
 hi Function guifg = #af875f
+hi Folded guifg = #8d5a2f guibg=#222222
 hi Repeat guifg = #808080
-hi Operator guifg = #844848
+hi Operator guifg = #8a2f2f
 hi SignColumn guifg = #FFFFFF guibg = none
-hi Error guifg = #ba2a2a guibg = none
-hi TODO guifg = #6f5faf
+hi Error guifg = #8a2f2f guibg=#111111
+hi TODO guifg = #7f52af
 hi linenr guifg = #333333
 hi CursorLineNR guifg = #bcbcbc
-hi Search guifg = #000000 guibg = #fff5c1
+hi Search guifg = #000000 guibg = #fff5a1
 hi FloatBorder guifg = #c0c0c0
-hi Title guifg = #6f5faf
-hi MarkSignNumHL guifg = #87dfdf
-hi MarkSignHL guifg = #5fafaf
+hi Title guifg = #7f52af
+hi MarkSignNumHL guifg = #66dfdf
+hi MarkSignHL guifg = #33af9f
 hi VertSplit gui = NONE guifg = #666666 guibg = none
 hi ColorColumn gui = NONE guifg = #666666 guibg = none
 
-hi Visual guifg = #111111 guibg = #fff5c1
+hi Visual guifg = #111111 guibg = #fff5a1
 hi SpecialKey guifg = #303030
 hi NonText guifg = #303030
 hi ExtraWhitespace guibg = #333333
@@ -46,9 +47,9 @@ hi Pmenu guifg = #aaaaaa guibg = #222222
 hi PmenuSel guifg = #FFFFFF guibg = #444444
 
 hi DiffAdd guifg = #3b753b guibg = NONE
-hi DiffChange guifg = #193519 guibg = NONE
-hi DiffDelete guifg = #ba2a2a guibg = NONE
-hi DiffText guifg = #872020 guibg = NONE
+hi DiffChange guifg = #124812 guibg = NONE
+hi DiffDelete guifg = #bf5a5a guibg = NONE
+hi DiffText guifg = #8a2f2f guibg = NONE
 
 hi ColorColumn guibg = #585858
 
@@ -82,11 +83,11 @@ hi GitGutterChangeLineNr guifg = #193519
 hi GitGutterDeleteLineNr guifg = #ba2a2a
 
 " lsp diagnostics
-hi DiagnosticError guifg = #872020
+hi DiagnosticError guifg = #8a2f2f
 hi DiagnosticWarn guifg = #FFFFFF
 hi DiagnosticInfo guifg = #183273
 hi DiagnosticUnderlineWarn guifg = #6f5faf
-hi DiagnosticHint guifg = #87dfdf
+hi DiagnosticHint guifg = #66dfdf
 hi DiagnosticVirtualTextHint guifg = #444444
 hi DiagnosticVirtualTextWarn guifg = #666666
 
@@ -94,7 +95,7 @@ hi DiagnosticVirtualTextWarn guifg = #666666
 hi VimwikiBold guifg = #FFFFFF gui = bold
 hi VimwikiItalic guifg = #DDDDDD gui = undercurl
 hi VimwikiWeblink1 guifg = #af875f gui = underline
-hi VimwikiListTodo guifg = #5f8f8f
+hi VimwikiListTodo guifg = #33af9f
 
 hi xxdAddress guifg = #555555 guibg = #222222 gui = italic
 hi xxdAscii guifg = #999999
