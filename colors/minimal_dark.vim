@@ -37,7 +37,12 @@ hi MarkSignNumHL guifg = #66dfdf
 hi MarkSignHL guifg = #33af9f
 hi VertSplit gui = NONE guifg = #666666 guibg = NONE
 hi ColorColumn gui = NONE guifg = #666666 guibg = NONE
-
+hi clear TabLineFill
+hi TablineFill guibg=#111111
+hi clear TabLine
+hi TabLine guifg = #555555 guibg = #000000
+hi clear TabLineSel
+hi TabLineSel guibg = #333333
 hi Visual guifg = #111111 guibg = #fff5a1
 hi SpecialKey guifg = #303030
 hi NonText guifg = #303030
