@@ -10,9 +10,9 @@ let g:colors_name = "minimal_dark"
 hi statusline guifg = NONE guibg = #151515
 hi Normal guifg = #c0c0c0 guibg = #151515
 hi Special guifg = #eeeeee
-hi Comment guifg = #444444 guibg = #111111
+hi Comment guifg = #888888 guibg = #050505 cterm=italic gui=italic
 hi Constant guifg = #b2b2b2
-hi String guifg = #999999
+hi String guifg = #cccccc gui=italic cterm=italic
 hi Number guifg = #af875f
 hi htmlTagName guifg = #b2b2b2
 hi Identifier guifg = #7f52af
@@ -41,10 +41,10 @@ hi MarkSignHL guifg = #33af9f
 hi VertSplit gui = NONE guifg = #666666 guibg = NONE
 hi ColorColumn gui = NONE guifg = #666666 guibg = NONE
 hi clear TabLineFill
-hi TablineFill guibg=#151515
+hi TablineFill guifg=#b1b1b1 guibg=#000000
 hi TabLine guifg = #008800 guibg = #880000
 hi clear TabLineSel
-hi TabLineSel guibg = #000000
+hi TabLineSel guifg = #222222 guibg = #666666
 hi Visual guifg = #111111 guibg = #fff5a1
 hi SpecialKey guifg = #303030
 hi NonText guifg = #303030
