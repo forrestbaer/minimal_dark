@@ -105,3 +105,7 @@ hi VimwikiListTodo guifg = #33af9f
 hi xxdAddress guifg = #555555 guibg = #222222 gui = italic
 hi xxdAscii guifg = #999999
 hi xxdDot guifg = #333333
+
+hi MyYank guifg=#FFFFFF guibg=#3a1a3a
+hi MyYank2 guifg=#111111 guibg=#dedede
+hi MyYank3 guifg=#FFFFFF guibg=#183273
