@@ -7,8 +7,8 @@ endif
 
 let g:colors_name = "minimal_dark"
 
-hi StatusLine guifg = NONE guibg = NONE
-hi Normal guifg = #c0c0c0 guibg = NONE
+hi statusline guifg = NONE guibg = #151515
+hi Normal guifg = #c0c0c0 guibg = #151515
 hi Special guifg = #eeeeee
 hi Comment guifg = #444444 guibg = #111111
 hi Constant guifg = #b2b2b2
@@ -30,6 +30,9 @@ hi Error guifg = #8a2f2f guibg=#111111
 hi TODO guifg = #7f52af
 hi linenr guifg = #333333
 hi CursorLineNR guifg = #bcbcbc
+hi clear IncSearch
+hi IncSearch guifg = #ffffff guibg = #3b753b
+hi CurSearch guifg = #fff5a1 guibg = #444444
 hi Search guifg = #000000 guibg = #fff5a1
 hi FloatBorder guifg = #c0c0c0
 hi Title guifg = #7f52af
@@ -38,11 +41,10 @@ hi MarkSignHL guifg = #33af9f
 hi VertSplit gui = NONE guifg = #666666 guibg = NONE
 hi ColorColumn gui = NONE guifg = #666666 guibg = NONE
 hi clear TabLineFill
-hi TablineFill guibg=#111111
-hi clear TabLine
-hi TabLine guifg = #555555 guibg = #000000
+hi TablineFill guibg=#151515
+hi TabLine guifg = #008800 guibg = #880000
 hi clear TabLineSel
-hi TabLineSel guibg = #333333
+hi TabLineSel guibg = #000000
 hi Visual guifg = #111111 guibg = #fff5a1
 hi SpecialKey guifg = #303030
 hi NonText guifg = #303030
@@ -50,6 +52,8 @@ hi ExtraWhitespace guibg = #333333
 hi MatchParen guifg = #eeeeee
 hi Pmenu guifg = #aaaaaa guibg = #222222
 hi PmenuSel guifg = #FFFFFF guibg = #444444
+hi clear WildMenu
+hi WildMenu guifg = #FFFFFF guibg = #3b753b
 
 hi DiffAdd guifg = #3b753b guibg = NONE
 hi DiffChange guifg = #124812 guibg = NONE
